@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+// Compo CSS + JS
+import "./AniCompo/AniCompo.css";
+import AniCompo from "./AniCompo/AniCompo";
+// Compo CSS + JS
+import "./NewCompo/NewCompo.css";
+import NewCompo from "./NewCompo/NewCompo.js";
+import reportWebVitals from "./reportWebVitals";
+
+// New Component
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AniCompo />
+    <NewCompo />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
